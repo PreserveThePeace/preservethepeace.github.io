@@ -44,9 +44,9 @@ p {
   // font-weight: 600;
 }
 
-.bg-red {
+.bg-blue {
   color: white;
-  background-color: $theme-red;
+  background-color: $theme-blue;
 }
 
 .bg-primary {
@@ -92,7 +92,7 @@ aside {
 
 .navbar-default {
   background-color: $theme-primary;
-  border-bottom: 1px solid darken($theme-red, 6%);
+  border-bottom: 1px solid darken($theme-blue, 6%);
   // border-color: rgba($theme-dark, .5);
 
   @include sans-serif-font;
@@ -172,7 +172,7 @@ header {
   width: 100%;
   min-height: auto;
   // @include background-cover;
-  // background-color: $theme-red;
+  // background-color: $theme-blue;
   background-color: white;
   text-align: left;
   color: white;
@@ -442,8 +442,8 @@ header {
   color: $theme-primary;
 }
 
-.text-red {
-  color: $theme-red;
+.text-blue {
+  color: $theme-blue;
 }
 
 .no-gutter > [class*='col-'] {
@@ -460,8 +460,8 @@ header {
   @include button-variant(white, $theme-dark, $theme-dark);
 }
 
-.btn-red {
-  @include button-variant(white, $theme-red, $theme-red);
+.btn-blue {
+  @include button-variant(white, $theme-blue, $theme-blue);
 }
 
 .btn {
